@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url("/81RTZEw.png") no-repeat center center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+}
+
+img {
+  max-width: 40px;
+  height: 40px;
+}
+
+.pessoa {
+  fill: rgb(24, 23, 23);
+  width: 200px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+.icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  padding: 50px 90px;
+  border-radius: 25px;
+  background-color: rgba(214, 209, 209, 0.7);
+  box-shadow: 2px 2px 2px 0px rgb(63, 59, 59);
+}
+/* .icone {
+  height: 100px;
+  width: 100px;
+  fill: white;
+} */
+
+.container h1 {
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+.informacoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.informacoes span {
+  margin-top: 25px;
+}
+
+.email {
+  margin-bottom: 10px;
+  height: 55px;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  width: 14%;
+}
+
+.password {
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  height: 55px;
+  width: 14%;
+}
+
+.login {
+  height: 60px;
+  width: auto;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+#checkbox {
+  margin-bottom: 45px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forget {
+  justify-content: space-between;
+}
+
+.criacao {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.erro-email {
+  margin-bottom: 10px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.erro-senha {
+  margin-bottom: 30px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* .container-email {
+  align-items: center;
+  justify-content: center;
+} */
+
+.container-email img {
+  position: relative;
+  left: -20px;
+  top: 15px;
+}
+
+.container-senha img {
+  position: relative;
+  left: -20px;
+  top: 15px;
+}
+.email {
+  position: absolute;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  background-color: transparent;
+}
+
+.password {
+  position: absolute;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.email::placeholder {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.password::placeholder {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+button {
+  background-color: linear-gradient(rgb(255, 255, 255));
+  opacity: 0.8;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(228, 179, 114);
+}
+
+.criacao a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.criacao a:hover {
+  color: orange;
+}
+
+.conteudo a:hover {
+  color: blue;
+}
+
+/* .criacao a:hover {
+  color: blue;
+} */
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+input {
+  font-size: 1rem;
+  font-weight: bold;
+}
